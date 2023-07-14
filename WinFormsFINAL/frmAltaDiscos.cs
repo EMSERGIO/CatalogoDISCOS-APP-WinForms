@@ -88,7 +88,7 @@ namespace WinFormsFINAL
                 cboEstilo.DisplayMember = "Descripcion";
                 cboTipoEdicion.DataSource = tipoEdicionNegocio.listar();
                 cboTipoEdicion.ValueMember = "Id";
-                cboTipoEdicion.DisplayMember = "Description";
+                cboTipoEdicion.DisplayMember = "Descripcion";
 
                 if (discos != null )
                 {

@@ -22,7 +22,7 @@ namespace negocio
                 {
                     TiposEdicion aux = new TiposEdicion();
                     aux.Id = (int)datos.Lector["Id"];
-                    aux.Descripcion = (string)datos.lector["Descripcion"];
+                    aux.Descripcion = (string)datos.Lector["Descripcion"];
 
                     lista.Add(aux);
                 }
